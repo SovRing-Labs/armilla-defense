@@ -1,0 +1,21 @@
+# armilla-defense
+
+> Signed input lanes, watch-only socket gates and redundant-residue fault sensing.
+
+Setup: `git clone --depth 1 https://github.com/SovRing-Labs/armilla-defense && cd armilla-defense && python3 -m venv .venv && . .venv/bin/activate && python -m pip install -q cryptography && python3 tests/local_demo.py lanes` (expect: PASS).
+Status: pre-alpha, under development — read STATUS.md before relying on a number.
+Licence: PolyForm Small Business 1.0.0 OR PolyForm Noncommercial 1.0.0 OR PolyForm Free Trial 1.0.0 (code); CC BY 4.0 (documents).
+
+## Docs
+- [README.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-defense/main/README.md)
+- [STATUS.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-defense/main/STATUS.md)
+- [suite.json](https://raw.githubusercontent.com/SovRing-Labs/armilla-defense/main/suite.json)
+- [TECHNICAL-DISCLOSURE.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-defense/main/TECHNICAL-DISCLOSURE.md)
+- [PROVENANCE.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-defense/main/PROVENANCE.md)
+- [LICENSING.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-defense/main/LICENSING.md)
+- [DATA.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-defense/main/DATA.md)
+- [CITATION.cff](https://raw.githubusercontent.com/SovRing-Labs/armilla-defense/main/CITATION.cff)
+- [AGENTS.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-defense/main/AGENTS.md)
+
+## Optional
+- [SovRing umbrella (all repos, MCP setup)](https://github.com/SovRing-Labs/SovRing)

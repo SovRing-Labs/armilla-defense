@@ -1,0 +1,63 @@
+{
+ "date": "2026-10-14",
+ "upstream": "127.0.0.1:8790",
+ "gate": "127.0.0.1:8791",
+ "mode": "watch-only",
+ "total_logged": 36,
+ "cases": {
+  "trusted_valid": {
+   "want": 1,
+   "got": 1,
+   "why": "trusted key fleet-test",
+   "action": "GIVE",
+   "upstream_answered": true,
+   "status": "HTTP/1.1 200 OK"
+  },
+  "unsigned": {
+   "want": 0,
+   "got": 0,
+   "why": "unsigned",
+   "action": "HOLD",
+   "upstream_answered": true,
+   "status": "HTTP/1.1 200 OK"
+  },
+  "unknown_key": {
+   "want": 0,
+   "got": 0,
+   "why": "unknown key stranger",
+   "action": "HOLD",
+   "upstream_answered": true,
+   "status": "HTTP/1.1 200 OK"
+  },
+  "tampered": {
+   "want": -1,
+   "got": -1,
+   "why": "bad signature for fleet-test",
+   "action": "COMMIT",
+   "upstream_answered": true,
+   "status": "HTTP/1.1 404 Not Found"
+  },
+  "revoked": {
+   "want": -1,
+   "got": -1,
+   "why": "revoked key revoked-test",
+   "action": "COMMIT",
+   "upstream_answered": true,
+   "status": "HTTP/1.1 200 OK"
+  }
+ },
+ "G1_every_connection_logged": true,
+ "G2_tiers": true,
+ "G3_watch_only_nothing_blocked": true,
+ "G4_rate_burst": {
+  "over_hard_cap_rows": 11,
+  "all_minus1": true,
+  "blocked": 0
+ },
+ "G5_rhythm": {
+  "regular_cv_median": 0.002,
+  "jittered_cv_median": 0.758
+ },
+ "G5_regular_lower": true,
+ "verdict": "PASS"
+}

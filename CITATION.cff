@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this defensive publication."
+title: "armilla-defense"
+version: "0.1.0"
+date-released: "2026-10-16"
+authors:
+  - family-names: "De Santiago"
+    given-names: "Juan Carlos"
+repository-code: "https://github.com/SovRing-Labs/armilla-defense"
+license:
+  - LicenseRef-PolyForm-Small-Business-1.0.0
+  - PolyForm-Noncommercial-1.0.0
+  - CC-BY-4.0

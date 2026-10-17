@@ -1,0 +1,4 @@
+Command: python3 tests/local_demo.py lanes
+Machine: Intel i5-8365U laptop; date: 2026-10-17T11:12:08.067147+00:00
+Exit: 0
+{"verdict": "PASS", "unsigned_payloads": 21, "unsigned_instructions": 0}

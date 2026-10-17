@@ -1,0 +1,4 @@
+Command: python3 tests/local_demo.py greenmark
+Machine: Intel i5-8365U laptop; date: 2026-10-17T11:12:18.952215+00:00
+Exit: 0
+{"date": "2026-10-14", "T1_rfc8032_vectors": {"pass": 3, "of": 3}, "T2_oracle": {"sig_equal": 200, "we_accept_oracle": 200, "oracle_accepts_ours": 200, "tamper_rejected_both": 200, "of": 200}, "T3_rfc9421_b26": {"base_equal": true, "rfc_sig_verifies": true, "our_sig_equals_rfc": true, "pubkey_from_d": true}, "T4_tiers": {"trusted_valid": {"got": 1, "want": 1}, "unsigned": {"got": 0, "want": 0}, "unknown_key": {"got": 0, "want": 0}, "tampered": {"got": -1, "want": -1}, "revoked": {"got": -1, "want": -1}}, "seconds": 10.5, "verdict": "PASS"}

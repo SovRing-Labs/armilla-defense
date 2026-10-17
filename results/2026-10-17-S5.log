@@ -1,0 +1,4 @@
+Command: python3 -c "import json; d=json.load(open('results/guard_demo.result.json')); assert d['verdict']=='PASS' and all(x['silent_wrong']==0 for x in d['jobs'].values()); print('PASS')"
+Machine: Intel i5-8365U laptop; date: 2026-10-17T11:12:30.019460+00:00
+Exit: 0
+PASS
